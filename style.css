@@ -1,0 +1,253 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    max-width: 1200px;
+    margin: auto;
+}
+
+.index {
+    background-image: url(image/Accueil.jpg);
+   background-size: 100% auto;
+   background-attachment: scroll;
+}
+
+.programme {
+    background-image: url(image/Programme.png);
+   background-size: 100% auto;
+   background-attachment: scroll;
+}
+
+.pratique {
+    background-image: url(image/Pratique.jpg);
+   background-size: 100% auto;
+   background-attachment: scroll;
+}
+
+.partenaire {
+    background-image: url(image/Partenaires.jpg);
+   background-size: 100% auto;
+   background-attachment: scroll;
+}
+
+.billet {
+    background-image: url(image/Billet.jpg);
+   background-size: 100% auto;
+   background-attachment: scroll;
+}
+.artiste {
+    background-image: url(image/Artiste.jpg);
+    background-size: 100% auto;
+    background-attachment: scroll;
+    grid-template-columns: 440px 750px;
+    display: grid;
+}
+
+.artiste a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.header {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-column: 1/-1;
+}
+
+.header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.header h1 {
+    font-size: 132px;
+    text-align: center;
+    grid-column: 1/-1;
+    margin-top: 0 px;
+    line-height: 110%;
+    margin-bottom: 3px;
+}
+
+.index {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+.info1{
+    font-size: 40px;
+    text-align: center;
+    grid-column: 1/-1;
+} 
+
+.texte {
+    grid-column: 1/-1;
+    text-align: left;
+    max-width: 850px;
+    margin: auto;
+}
+
+.accim{
+    max-width: 700px;
+    height: auto;
+    margin: auto;
+    grid-column: 1/-1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pratique {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+.h2 {
+    font-size: 30px;
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+.acc a{
+    color: rgb(255, 255, 255);
+}
+.acc{
+    font-size: 21px;
+    text-align: center;
+    grid-column: 1/-1;
+    margin-top: 30px;
+}
+.t16 {
+    font-size: 21px;
+    text-align: center;
+}
+
+.t19 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.resaux{
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+.infprat{
+    text-align: center;
+}
+
+.cal{
+    margin-bottom: none;
+}
+
+.horl{
+    margin-top: 10%;
+}
+
+.map{
+    margin-top: 5%;
+}
+
+.textepratique{
+    grid-column: 1/-1;
+    text-align: center;
+    max-width: 850px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.logo{
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.billetrange{
+    text-align: center;
+    font-size: 21px;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 48px;
+    margin: auto;
+}
+
+.billetrange img{
+  height:200px; 
+}
+
+.artistes-01{
+    display: grid;
+    grid-template-columns: repeat(5,217px);
+    align-items: end;
+    justify-content: center;
+    gap:24px;
+    margin-bottom: 90px;
+}
+
+.artistes-02{
+    display: grid;
+    grid-template-columns: repeat(4,217px);
+    align-items: end;
+    justify-content: center;
+    gap:24px;
+    margin-bottom: 90px;
+}
+
+.artistes-03{
+    display: grid;
+    grid-template-columns: repeat(4,217px);
+    align-items: end;
+    justify-content: center;
+    gap:24px;
+    margin-bottom: 90px;
+}
+
+.artistes-04{
+    display: grid;
+    grid-template-columns: repeat(3,217px);
+    align-items: end;
+    justify-content: center;
+    gap:24px;
+    margin-bottom: 90px;
+}
+
+.item{
+    display: grid;
+}
+
+.item>*{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+}
+
+.item:hover{
+    opacity: 0.5;
+}
+
+.item span{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color:#fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px rgba(0,0,0,0.8);
+    text-decoration: none;
+}
+
+.imart {
+  margin: auto;
+}
+
+.descart{
+    text-align: left;
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+}
+
